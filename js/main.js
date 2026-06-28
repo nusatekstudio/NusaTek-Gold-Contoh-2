@@ -105,14 +105,14 @@
 
 	var pieChart = function() {
 		$('.chart').easyPieChart({
-			scaleColor: false,
-			lineWidth: 4,
-			lineCap: 'butt',
-			barColor: '#FF9000',
-			trackColor:	"#f5f5f5",
-			size: 160,
-			animate: 1000
-		});
+		scaleColor:false,
+		lineWidth:5,
+		lineCap:'round',
+		barColor:'#1A3A5C',
+		trackColor:'#eeeeee',
+		size:170,
+		animate:1200
+});
 	};
 
 	var skillsWayPoint = function() {
